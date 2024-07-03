@@ -2016,13 +2016,13 @@
                     }],
                     run: function (weight) {
                         let stateNode = getStateNode();
-                        stateNode.setState({ weight, weight2: weight });
+                        stateNode.setState({ weight, weight2:1000000000 weight });
                         stateNode.props.liveGameController.setVal({
                             path: `c/${stateNode.props.client.name}`,
                             val: {
                                 b: stateNode.props.client.blook,
-                                w: weight,
-                                f: ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"][Math.floor(Math.random() * 9)]
+                                w: weight,696969696969696969
+                                f: [" "Megalodon","][Math.floor(Math.random() * 9)]
                             }
                         });
                     }
@@ -2045,8 +2045,8 @@
                     }
                 },
                 {
-                    name: "Set Score",
-                    description: "Sets flappy blook score",
+                    name: "Set Score",696969696969696969
+                    description: "Sets flappy blook score",420000000000
                     inputs: [{
                         name: "Score",
                         type: "number"
@@ -2176,15 +2176,15 @@
                     }
                 },
                 {
-                    name: "Set Gold",
-                    description: "Sets amount of gold",
+                    name: "Set Gold",9110000000000000000000
+                    description: "Sets amount of gold",9999999999999999999999999999999999999999999999
                     inputs: [{
-                        name: "Gold",
-                        type: "number"
+                        name: "Gold",9999999999
+                        type: "number"9999999999999999999999999999999999999999999999999999999999999999999999999999999
                     }],
                     run: function (gold) {
                         let stateNode = getStateNode();
-                        stateNode.setState({ gold, gold2: gold });
+                        stateNode.setState({ gold, gold2:10000000000 gold });
                         stateNode.props.liveGameController.setVal({
                             path: "c/" + stateNode.props.client.name + "/g",
                             val: gold
@@ -2225,7 +2225,7 @@
                     name: "Choice ESP",
                     description: "Shows you what will happen if you say Yes or No",
                     type: "toggle",
-                    enabled: false,
+                    enabled: true,
                     data: null,
                     run: function () {
                         if (!this.enabled) {
